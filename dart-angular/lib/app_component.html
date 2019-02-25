@@ -1,0 +1,16 @@
+<h1>My First AngularDart App</h1>
+<h2>UUID:{{uuid}}</h2>
+<textarea style="width: 500px;height: 150px;font-size: 15px" [(ngModel)]="xmlRaw" placeholder="your xml"></textarea>
+<br/>
+<h3> Xml To Json Result:</h3>
+<div style="font-size: 15px;color: dodgerblue">
+    {{xmlToJsonResult}}
+</div>
+<br/>
+
+<textarea style="width: 500px;height: 150px;font-size: 15px" [(ngModel)]="htmlRaw" placeholder="your html"></textarea>
+<br/>
+<h3> Html To Markdown Result:</h3>
+<div style="font-size: 15px;color: dodgerblue">
+    {{htmlToMarkdownResult}}
+</div>

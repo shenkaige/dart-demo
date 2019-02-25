@@ -1,0 +1,7 @@
+<dart>
+    <platform>web</platform>
+    <platform>server</platform>
+    <platform>ios(flutter)</platform>
+    <platform>android(flutter)</platform>
+    <platform>pc(flutter)</platform>
+</dart>

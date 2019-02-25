@@ -1,0 +1,19 @@
+name: dart_server
+description: A sample command-line application.
+# version: 1.0.0
+# homepage: https://www.example.com
+# author: skg <email@example.com>
+
+environment:
+  sdk: '>=2.0.0 <3.0.0'
+
+#dependencies:
+#  path: ^1.4.1
+dependencies:
+  jaguar: ^2.4.26
+  uuid: ^2.0.0
+  xml2json: ^3.0.3
+  html2md: ^0.3.0
+
+dev_dependencies:
+  test: ^1.0.0
